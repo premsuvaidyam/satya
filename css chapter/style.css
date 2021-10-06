@@ -1,0 +1,87 @@
+#pp{
+    height: 600px;
+    border: 2px solid blue;
+    background-image: linear-gradient( blue, yellow,red, green);
+    margin: 10px;
+}
+#ppp{
+    height: 500px;
+    border: 2px solid red;
+    background-image: radial-gradient( circle, yellow, blue , red, black);
+    text-transform: capitalize;
+    text-overflow: clip;
+    overflow-y: scroll;
+    word-spacing: 20px;
+    margin: 15px;
+    
+}
+h1{
+    text-align: center;
+    color: black;
+    text-shadow: 7px 4px 3px red;
+    
+}
+p{
+    text-shadow: 7px 4px 5px red;
+}
+#tt{
+    border: 3px solid red;
+    border-top:dotted;
+    height: 200px;
+    border-width: unset;
+    border-bottom-left-radius:20px;
+    border-bottom-right-radius: 20px;
+    border-top-right-radius: 20px;
+    text-transform:capitalize;
+    line-height: 50px;
+    margin: 10px;
+}
+#ccc{
+    border: 3px solid blue;
+    height: 100px;
+    border-bottom: dotted;
+    text-transform: capitalize;
+    line-height: 50px;
+    letter-spacing: 10px;
+    margin: 20px;
+}
+#father{
+    padding: 20px;
+    width: 50%;
+    display: inline-block;
+
+}
+#prem{
+    height: 100px;
+    width: 100px;
+    background-color: yellow;
+    display: inline-block;
+    position: relative;
+   
+}
+#rajeev{
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    display: inline-block;
+    top: 50px;
+    left:-50px;
+    position: relative;
+}
+#home{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    display: inline-block;
+    top: 100px;
+    left:-100px;
+    position: relative;
+}
+#customers th{
+    background-color: royalblue;
+    border: 2px solid green;
+}
+#customers td,tr{
+          background-color: green;
+}
+
